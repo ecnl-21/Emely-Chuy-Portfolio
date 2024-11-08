@@ -32,6 +32,9 @@ footer {
 	font-weight:bold;
 }
 
+.logoimg {
+    width: 200px;
+}
 /* table */
 
 table, td, tn {
@@ -73,4 +76,12 @@ th {
 
 th, td {
     padding: 10px 30px;
+}
+
+button {
+    style: float: right;
+}
+
+background{
+    background-color:#F5D1D1! ;
 }
