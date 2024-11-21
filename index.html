@@ -1,216 +1,192 @@
 <!DOCTYPE html>
-<html lang = 'en'>
-	<head>
-		<!--Beginning of the html, just the Title of page.-->
-			<meta charset="utf-8">
-			<meta name = "viewport" content= "width=device-width, initial-scale=1">
-			<title>My Bootstrap Page-Emely Chuy</title>
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-			<link href = "style.css" rel="stylesheet">
-	
-	</head>
-
+<html lang='en'>
+<head>
+    <!--Beginning of the HTML, just the Title of the page.-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Bootstrap Page - Emely Chuy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col">
+    					<!--Header Section-->
+    <header>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Emely Chuy</h1>
+                </div>
+            </div>
+        </section>
 
-					<h1>Emely Chuy</h1>
+        			<!-- Jumbotron, pic of San Diego -->
+        <section class="container-fluid py-5 mb-4 d-flex justify-content-center" style="background-image: url('San Diego.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+            <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12">
+                <div class="lc-block">
+                    <div editable="rich"></div>
+                </div>
+            </div>
+        </section>
+    </header>
 
-				</div>
-			</div>
-		</div>
-
-			<!--This is the Jumbotron. Pic of San Diego-->
-
-    <div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center" style="  background-image: url('San Diego.jpg');
-    		background-position: center;
-					background-size:cover;
-					background-repeat:no-repeat">
-        <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12">
-            <div class="lc-block">
-                <div editable="rich">
-
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md" style="background-color: #489365;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Information</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact Me</a>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
 
 
+    							<!-- Main Content -->
+    <main class="container my-4">
+        <section>
+            <h1 class="text-center mb-4">Beginning</h1>
+            <p class="text-center mb-4">Hello, welcome to my page! I will be putting more information shortly.</p>
+            <div class="table-responsive">
+                <table>
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Projects</th>
+                            <th scope="col">Events</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Arcade Days</td>
+                            <td>Python Game... More information coming shortly.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>To Be Announced</td>
+                            <td>More details coming soon!</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>To Be Announced</td>
+                            <td>More details coming soon!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+ 								<!-- Embedded YouTube Video -->
+        <section class="container my-4">
+            <table id="videoTable">
+            	<h2 class="text-center">Inspiring Video</h2>
+            		<div class="d-flex flex-column align-items-center">
+                <tr>
+                    <td>
 
-    					<!--This is the buttons section-->
-
-	</header>
-		<nav class="navbar navbar-expand-md" style="background-color: #489365;">
-  		<div class="container-fluid">
- 
-    		<button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
-      <span class="navbar-toggler-icon"></span>
-    		</button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Information</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Contact Me</a>
-        
-
-
-
-      </div>
-    </div>
-  </div>
-</nav>
-
-
-						<!--This is where my table is at -->
- <main class="container my-4">
-        <h1 class="text-center mb-4">Beginning</h1>
-        	<p class="text-center mb-4">Hello, welcome to my page! I will be putting more information shortly.</p>
-        <div class="table-responsive">
-            <table>
-                <thead class="table-dark">
-                    <tr>
-                        <th scope="col"></th>
-                        <th scope="col">Projects</th>
-                        <th scope="col">Events</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td></td>
-                        <td>In Progress</td>
-                        <td>Tapia Conference 2025 San Diego</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mCJWiR3Vdi8?si=wMUrFmM3pJLgIfWe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                    <td>
+                        <h3>The Beauty of Computer Science</h3>
+                        <p>This video was intended to inspire you and bring your interest in Computer Science.</p>
+                    </td>
+                </tr>
             </table>
-        </div>
+        </section>
     </main>
 
-<div class = "wrapper">
-			<main>
+    									<!-- Footer Section -->
+    <footer class="footer mt-auto py-0.5 fixed-bottom navbar text-light" style="background-color: #489365;">
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    Copyright &copy; 2024. All Rights Reserved
+                </div>
+            </div>
+        </section>
+    </footer>
 
-				<table id= "videoTable">
-					<tr>
-						<td>
-							<!-- Embedded Youtube Video -->
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/mCJWiR3Vdi8?si=wMUrFmM3pJLgIfWe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</td>
-						<td>
-							<h3>The Beauty of Computer Science</h3>
-							<p>This video was intended to inspire you and bring your interest in Computer Science.</p>
-						</td>
-					</tr>
-				</table>
-			</main>
-		</div>
+    					<!-- Additional Content Section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <article class="col-md-12 bg-light text-center py-4">
+                    <h1>My Image</h1>
+                    <p>The interesting pros and cons of Computer Science have been nothing but a challenge, but also a passion for me.</p>
+                    <p>Learning how to program has been nothing but a game, but also hard at the same time.</p>
+                </article>
+            </div>
+            <div class="row">
+                <figure class="col-md-12 bg-light text-center g-0">
+                    <img src="lion.jpg" class="example image" width="400" height="250" alt="Lion Image">
+                </figure>
+            </div>
+        </div>
+    </section>
 
-<main>
-	<div class ="container">
-		<div class = "row">
-			<div class="col-md-8"></div>
-			<div class="col-md-4"></div>
-</main>
+    							<!-- Awards Section -->
+    <section>
+        <div class="container py-6">
+            <div class="row gy-5 gy-xl-0">
+                <aside class="col-lg-4">
+                    <h2>Awards</h2>
+                    <ul>
+                        <li>Award 1: NASA Open Science 101</li>
+                        <li>Award 2: Academic Excellence at National Louis University</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
 
-<footer class="footer mt-auto py-3 fixed-bottom navbar text-light" style="background-color: #489365;" >
-	<div class="container">
-			<div class="row">
-				<div class="col">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-	Copyright &copy; 2024. All Rights Reserved
-				</div>
-			</div>
-		</div>
-</footer>
 
-	
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+                    					<!--Email-->
+
+               <section class="container my-4">
+    				<h2 class="text-center">Subscribe to My Portfolio</h2>
+    					<p class="text-center">Enter your email below to stay updated:</p>
+    						<form id="emailForm" class="text-center">
+       							<div class="mb-3">
+           						 	<label for="email" class="form-label">Email:</label>
+            	<input type="email" id="email" name="email" class="form-control w-50 mx-auto" placeholder="Enter your email" required>
+        					</div>
+        			<button type="button" class="btn btn-primary" onclick="performEmailTask();">Subscribe</button>
+   			</form>
+	</section>
+
+
+                    			<!--Beginning of JavaScript for Email-->
+<script>
+                    		
+                    		function performEmailTask() {
+                    			//get value from the email input
+                    			var email = document.getElementById("email").value;
+
+                    			//perform the task - alert box
+                    			alert('Entered Email: ' + email);
+                    		}
+</script>
+		
+
+		<section class="container my-3 d-flex flex-column align-items-center justify-content-center">
+
+    		<img src="Computer.svg" alt="Cute litte computer" width="200">
+					</section>
+
+
+
+
 </body>
-
-					<!--Very bottom part of html website-->
-
-<section class=" ">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 bg-light text-center py-4">
-				<div class="lc-block mb-3">
-					<div editable="rich">
-							<h1>My Image</h1>
-						
-
-					</div>
-				</div>
-				<div class="lc-block ">
-					<div editable="rich">
-
-						<p><br>The interesting pros and cons of Computer Science have been nothing but a challenge, but also a passion for me.</br><br>Learning how to program have been nothing but a game, but also hard at the same time.</br>
-						</p>
-					</div>
-				</div><!-- /lc-block -->
-			</div><!-- /col -->
-		</div>
-
-		<div class="row">
-			<div class="col-md-12 bg-light text-center g-0">
-				<div class="lc-block">
-					<img src="lion.jpg" class ="example image" width="400" height="250">
-				</div>
-
-			</div><!-- /col -->
-		</div>
-	</div>
-</section>
-<section class="">
-	<div class="container py-6">
-		<div class="row gy-5 gy-xl-0">
-			<div class="col-lg-4">
-									<div editable="rich">
-
-					</div>
-				</div><!-- /lc-block -->
-			</div><!-- /col -->
-			<div class="col-lg-4">
-				<div class="lc-block text-muted" style="letter-spacing:0.7rem">
-					<div editable="rich">
-						<p>Awards</p>
-					</div>
-				</div>
-				<div class="lc-block">
-					<div editable="rich">
-						<p><li>Award 1: NASA Open Science 101.</p></li>
-
-						<p><li>Award 2: Academic Excellence at National Louis University.</p></li>
-
-					</div>
-				</div><!-- /lc-block -->
-			</div><!-- /col -->
-			<div class="col-lg-4">
-				<div class="lc-block text-muted" style="letter-spacing:0.7rem">
-					
-					</div>
-				</div><!-- /lc-block -->
-			</div><!-- /col -->
-		</div>
-	</div>
-</section>
- 
-      <p class="py-5 small text-center text-muted"><a href="https://library.livecanvas.com/"></a>  
-    </p>
-  
 </html>
 
 
